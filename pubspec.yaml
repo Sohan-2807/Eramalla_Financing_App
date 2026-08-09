@@ -1,0 +1,64 @@
+name: erramala
+description: Erramala - Finance Collection Management System
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.1
+
+  # Database
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # Storage & paths
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.3
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Phone / WhatsApp
+  url_launcher: ^6.2.6
+
+  # Biometrics
+  local_auth: ^2.2.0
+
+  # File sharing & PDF Generation
+  share_plus: ^9.0.0
+  pdf: ^3.10.8
+  printing: ^5.11.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/icon/app_logo.png
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/icon/app_logo.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#070B14"
+  image: "assets/icon/app_logo.png"
+
+  # For Android 12+ support:
+  android_12:
+    image: "assets/icon/app_logo.png"
+    icon_background_color: "#070B14"
