@@ -57,5 +57,6 @@ This app provides a complete digital ledger system that runs **100% offline**, e
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YourUsername/erramala-finance.git](https://github.com/YourUsername/erramala-finance.git)
+   git clone [https://github.com/Sohan-2807/Eramalla_Financing_App.git]
+   (https://github.com/Sohan-2807/Eramalla_Financing_App.git)
    cd erramala-finance
